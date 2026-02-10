@@ -47,13 +47,13 @@ const FAQItem = ({ question, answer, index }: { question: string, answer: string
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between p-5 text-left md:p-6"
+        className="flex w-full items-center justify-between p-3 text-left md:p-4"
       >
         <div className="flex items-center gap-4">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-red-50 text-red-600">
             <HelpCircle size={20} />
           </div>
-          <span className="text-lg font-bold text-slate-800 md:text-xl">
+          <span className="text-lg font-bold text-slate-800 md:text-lg">
             {question}
           </span>
         </div>
