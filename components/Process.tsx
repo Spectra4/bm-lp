@@ -63,7 +63,7 @@ const ModernSnakeFlow = () => {
           </div>
 
           {/* MOBILE/TABLET: Vertical Connecting Line */}
-          <div className="lg:hidden absolute left-1/2 top-0 bottom-0 w-1 bg-slate-100 -translate-x-1/2 z-0">
+          {/* <div className="lg:hidden absolute left-1/2 top-0 bottom-0 w-1 bg-slate-100 -translate-x-1/2 z-0">
             <motion.div 
               initial={{ height: 0 }}
               whileInView={{ height: '100%' }}
@@ -71,7 +71,7 @@ const ModernSnakeFlow = () => {
               className="w-full"
               style={{ backgroundImage: 'linear-gradient(to bottom, transparent 50%, #ef4444 50%)', backgroundSize: '1px 20px' }}
             />
-          </div>
+          </div> */}
 
           {/* Steps Content */}
           <div className="flex flex-col lg:grid lg:grid-cols-4 gap-12 lg:gap-8 w-full relative z-10">
